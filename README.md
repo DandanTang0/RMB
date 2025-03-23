@@ -22,8 +22,7 @@ data <- matrix(rnorm(200), 20, 10)
 # Run model
 result <- RMB("MAR", data = data, seed = 123)
 
-# Traceplot
-# traceplot(result)
+result
 ```
 
 ## 📖 Vignette
