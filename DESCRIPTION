@@ -7,7 +7,6 @@ Maintainer: Dandan Tang <gux8df@virginia.edu>
 Description: Provides functions for analyzing missing data using a robust median-based Bayesian method via MCMC sampling using JAGS.
 License: MIT
 Encoding: UTF-8
-LazyData: true
 Imports: 
   coda,
   rjags
