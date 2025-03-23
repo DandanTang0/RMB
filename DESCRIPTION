@@ -12,3 +12,4 @@ Imports:
   coda,
   rjags
 VignetteBuilder: knitr
+RoxygenNote: 7.3.2
