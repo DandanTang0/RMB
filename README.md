@@ -1,4 +1,4 @@
-# RMB: Robust Median-Based Bayesian Approach
+# RoMeB: Robust Median-Based Bayesian Approach
 
 **RMB** is an R package for robust median-based Bayesian modeling for longitudinal data with missingness (MAR, MNAR, MCAR). It uses JAGS and MCMC methods to estimate latent growth curves.
 
@@ -14,13 +14,13 @@ devtools::install_github("DandanTang0/RMB")
 ## 🚀 Usage
 
 ```r
-library(RMB)
+library(RoMeB)
 
 # Example data
 data <- matrix(rnorm(200), 20, 10)
 
 # Run model
-result <- RMB("MAR", data = data, seed = 123)
+result <- RoMeB("MAR", data = data, seed = 123)
 
 result
 ```
