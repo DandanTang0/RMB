@@ -8,7 +8,7 @@ You can install the development version of `RMB` from GitHub:
 
 ```r
 install.packages("devtools")
-devtools::install_github("DandanTang0/RMB")
+devtools::install_github("DandanTang0/RoMeB")
 ```
 
 ## 🚀 Usage
