@@ -18,6 +18,10 @@ Romeb(Missing_Type, data, seed, chain = 1, Niter = 6000, burnIn = 3000)
 \item{Niter}{Total number of MCMC iterations}
 
 \item{burnIn}{Number of burn-in iterations}
+
+\item{Time}{Number of measurement occasions}
+
+\item{K}{number of auxiliary variables}
 }
 \value{
 An mcmc.list object invisibly
