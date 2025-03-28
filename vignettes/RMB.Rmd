@@ -1,26 +1,26 @@
 ---
-title: "RMB Package: An Introduction"
+title: "Romeb Package: An Introduction"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{RMB Package: An Introduction}
+  %\VignetteIndexEntry{Romeb Package: An Introduction}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(RMB)
+library(Romeb)
 ```
 
-## What is RMB?
+## What is Romeb?
 
-`RMB` is a Robust Median-based Bayesian modeling package for handling missing data (MAR, MNAR, MCAR).
+`Romeb` is a Robust Median-based Bayesian modeling package for handling missing data (MAR, MNAR, MCAR).
 
 ## Quick Example
 
 ```{r eval=FALSE}
 set.seed(123)
 data <- matrix(rnorm(200), 20, 10)
-result <- RMB("MAR", data, seed = 123)
-traceplot(result)
+result <- Romeb("MAR", data, seed = 123)
+
 ```
