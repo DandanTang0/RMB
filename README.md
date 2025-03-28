@@ -1,26 +1,26 @@
-# RoMeB: Robust Median-Based Bayesian Approach
+# Romeb: Robust Median-Based Bayesian Approach
 
-**RoMeB** is an R package for robust median-based Bayesian modeling for longitudinal data with missingness (MAR, MNAR, MCAR). It uses JAGS and MCMC methods to estimate latent growth curves.
+**Romeb** is an R package for robust median-based Bayesian modeling for longitudinal data with missingness (MAR, MNAR, MCAR). It uses JAGS and MCMC methods to estimate latent growth curves.
 
 ## 📦 Installation
 
-You can install the development version of `RMB` from GitHub:
+You can install the development version of `Romeb` from GitHub:
 
 ```r
 install.packages("devtools")
-devtools::install_github("DandanTang0/RoMeB")
+devtools::install_github("DandanTang0/Romeb")
 ```
 
 ## 🚀 Usage
 
 ```r
-library(RoMeB)
+library(Romeb)
 
 # Example data
 data <- matrix(rnorm(200), 20, 10)
 
 # Run model
-result <- RoMeB("MAR", data = data, seed = 123)
+result <- Romeb("MAR", data = data, seed = 123)
 
 result
 ```
@@ -30,7 +30,7 @@ result
 After installation, view the vignette:
 
 ```r
-browseVignettes("RMB")
+browseVignettes("Romeb")
 ```
 
 ## 🔧 Supported Missing Data Mechanisms
