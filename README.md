@@ -17,7 +17,7 @@ devtools::install_github("DandanTang0/Romeb")
 library(Romeb)
 
 # Example data
-data <- matrix(rnorm(200), 20, 10)
+data <- matrix(rnorm(300*5), 300, 5)
 
 # Run model
 result <- Romeb("MAR", data = data, seed = 123)
