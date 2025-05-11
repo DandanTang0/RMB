@@ -20,7 +20,7 @@ library(Romeb)
 data <- matrix(rnorm(300*5), 300, 5)
 
 # Run model
-result <- Romeb("MAR", data = data, seed = 123)
+result <- Romeb("MAR", data = data, Time = 5, seed = 123)
 
 result
 ```
