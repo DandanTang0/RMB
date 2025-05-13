@@ -8,7 +8,7 @@ You can install the development version of `Romeb` from GitHub:
 
 ```r
 install.packages("devtools")
-devtools::install_github("DandanTang0/Romeb")
+devtools::install_github("DandanTang0/Romeb", dependencies = TRUE)
 ```
 
 ## 🚀 Usage
