@@ -27,6 +27,17 @@ result
 
 ## 📖 Vignette
 
+Installation with vignette
+
+```r
+devtools::install_github(
+  "DandanTang0/Romeb",
+  build_vignettes = TRUE,   
+  dependencies    = TRUE,
+  force           = TRUE    
+)
+```
+
 After installation, view the vignette:
 
 ```r
