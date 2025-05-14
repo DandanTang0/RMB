@@ -127,7 +127,7 @@ coda::traceplot(result_full$samps_full[,'par[1]'])
 Please cite the package as:
 
 > Tang,D.and Tong,X.(2025). *Robust Median-Based Bayesian Growth Curve Modeling 
-> with Missing Data in R: The Romeb Package.* 
+> with Missing Data in R: The Romeb Package.* R package version `r packageVersion("Romeb")`.
 
 
 Bibliographic metadata can also be obtained via `citation("Romeb")`.
