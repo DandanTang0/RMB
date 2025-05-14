@@ -44,6 +44,8 @@ After installation, view the vignette:
 browseVignettes("Romeb")
 ```
 
+Users can read or rerun the full, documented example.
+
 ## 🔧 Supported Missing Data Mechanisms
 
 - MAR (Missing At Random)
