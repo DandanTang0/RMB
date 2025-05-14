@@ -34,7 +34,7 @@ devtools::install_github(
   "DandanTang0/Romeb",
   build_vignettes = TRUE,   
   dependencies    = TRUE,
-  force           = TRUE    
+  force           = TRUE  # replace previous installation
 )
 ```
 
