@@ -1,0 +1,18 @@
+#' Youth Attitudes toward Deviance (NYS, 1976–1980) 
+#'
+#' A real data set from the 1976–1980 National Youth Survey of U.S. youth.
+#'
+#' @format A data frame with 1,725 rows and 7 variables:
+#' \describe{
+#'   \item{age}{Participant age (years)}
+#'   \item{gender}{Gender (0 = female, 1 = male)}
+#'   \item{Atd1}{Attitude toward social deviance, wave 1}
+#'   \item{Atd2}{Attitude toward social deviance, wave 2}
+#'   \item{Atd3}{Attitude toward social deviance, wave 3}
+#'   \item{Atd4}{Attitude toward social deviance, wave 4}
+#'   \item{Atd5}{Attitude toward social deviance, wave 5}
+#' }
+#' @source National Youth Survey, waves 1976–1980 (downloadable at https://www.icpsr.umich.edu/icpsrweb/ICPSR/series/88)
+#' @docType data
+#' @name NYS
+"NYS"
