@@ -19,5 +19,6 @@ Suggests:
     usethis,
     devtools
 VignetteBuilder: knitr
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
