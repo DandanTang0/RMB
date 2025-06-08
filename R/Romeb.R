@@ -125,13 +125,13 @@ print.RomebResult <- function(x, ...) {
   cat("Romeb GCM summary\n",
       "==================\n", sep = "")
   cat("\nPosterior medians (50% quantiles):\n")
-  print(head(x$quantiles$quantiles[,"50%"]))
+  print(x$quantiles$quantiles[,"50%"])
   cat("\nGeweke test:\n")
-  print(head(x$geweke))
+  print(x$geweke)
   cat("\n95% credible intervals:\n")
-  print(t(head(x$credible_intervals)))
+  print(t(x$credible_intervals))
   cat("\n95% hpd intervals:\n")
-  print(t(head(x$hpd_intervals[,1:2])))
+  print(t(x$hpd_intervals[,1:2]))
   cat("\nUse x$samps_full to access full MCMC samples,",
       "and coda::traceplot(x$samps_full[,'par[i]']) for the trace plot of par[i].\n")
   invisible(x)
